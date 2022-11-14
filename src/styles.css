@@ -1,0 +1,42 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  margin: 0;
+}
+h1 {
+  font-size: 1.5em;
+}
+#menu {
+  width: 200px;
+  padding: 10px;
+}
+#map {
+  width: 100%;
+  background-color: gray;
+  height: 100vh;
+}
+.menu-items {
+  display: flex;
+  flex-direction: column;
+}
+.menu-items a {
+  margin: 5px;
+  color: blue;
+  cursor: pointer;
+  font-size: 0.8em;
+}
+.objectMarker {
+  border: 2px solid blue;
+  border-radius: 100%;
+  width: 12px;
+  height: 12px;
+}
+
+.groupMarker {
+  border: 2px solid red;
+  border-radius: 100%;
+  font-size: 12px;
+  text-align: center;
+  width: 12px;
+  height: 12px;
+}
